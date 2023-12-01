@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    background-color: #a4b186;
+}
+
+.naving {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.naving li {
+    display: inline;
+    margin: 16px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+header h1 {
+    color: #d5dbc7;
+    font-size: 50px;
+    margin-right: 40px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+main .infof h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    margin: 50px;
+    color: #a4b186;
+
+
+}
+
+main .infof h3 {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 30px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+.infof p {
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+section .fpost h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    margin: 50px;
+    color: #a4b186;
+}
+
+.fpost {
+    display: flex;
+    margin: 30px;
+}
+
+
+
+
+section #c1 {
+    margin: auto;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: #a4b186;
+
+}
+
+.fpostcontent p {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.fpostimg img {
+    height: 400px;
+    margin-right: 20px;
+    margin-top: 60px
+}
+
+.formulario{
+    margin-left: 20%;
+    margin-top: 40px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 30px;
+    
+}
+
+form input,
+form textarea, 
+form button {
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-family: 'Raleway', sans-serif;
+}
+
+form button:hover{
+    background-color: #a4b186;
+    
+}
+.formulario h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #a4b186;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color:#d5dbc7;
+    width: 100%;
+    height: 170px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2 {
+    font-family: 'Raleway', sans-serif; 
+    display: flex;
+    margin: 30px;
+    
+}
+
+footer img{
+    width: 40px;
+    margin: 8px; 
+      
+}
+footer ul {
+    display: flex;
+    margin-left: 50px;
+
+
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+}
+
+footer .cp{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
